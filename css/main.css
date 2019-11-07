@@ -10,21 +10,35 @@ body {}
 }
 
 /* HEADER */
-.page__header {}
-.nav-trigger {
-    background: red; 
+.page__header {
     position: absolute; 
     top: 30px; 
     right: 30px;
+}
+.nav-trigger {
+    background: red; 
+    position: absolute;
+    right: 0px;
 }
 
 /* MENU */
 .nav {
     display: none;
 }
-.nav__items {}
+.show {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nav__items {
+    list-style: none;
+    text-align: center;
+}
 .nav__item {}
-.nav__link {}
+.nav__link {
+    text-decoration: none;
+}
 .nav-close {}
 
 /* MAIN */

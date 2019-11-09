@@ -5,9 +5,7 @@
     box-sizing: border-box;
 }
 body {}
-.page {
-
-}
+.page {}
 
 /* HEADER */
 .page__header {
@@ -100,10 +98,19 @@ body {}
     font-family: 'Roboto Slab', serif;
 }
 .nav-close {
-    background: red; 
+    background-image: url('../images/ico-close.svg');
     position: absolute;
     top: 30px; 
     right: 30px;
+    background-color: rgba(5, 4, 4, 0.678);
+    height: 35px;
+    width: 35px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: transparent;
+    border: none;
+    border-radius: 5px;
 }
 /* MAIN */
 .page__main {

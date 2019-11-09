@@ -18,7 +18,6 @@ function hideNav(){
     navList.classList.remove ('show');
     navList.classList.add('hide');
     navOpenButton.classList.remove('hide');
-    navOpenButton.classList.add('show');
 }
 
 navOpenButton.addEventListener('click', showNav);

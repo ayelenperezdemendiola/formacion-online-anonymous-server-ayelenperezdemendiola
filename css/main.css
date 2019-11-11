@@ -48,15 +48,34 @@ body {
         height:100%;
     }
 }
+@keyframes hideNav {
+    from{
+        transform: translateX(0);
+        width:100%;
+        height:100%;
+    }
+    to{
+        transform: translateX(-100%);
+        width:100%;
+        height:100%;
+    }
+}
 
 .nav {
     background-color:rgba(64, 41, 41, 0.92);
     width: 100%;
     height: 100%;
     top: 0;
+    display: none;
 }
 .hide {
     display: none;
+}
+
+.hideNav {
+    animation-name: hideNav;
+    animation-duration: 300ms;
+    animation-iteration-count: 1;
 }
 
 .show {

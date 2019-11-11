@@ -5,7 +5,6 @@ const navCloseButton = document.querySelector ('.nav-close');
 const navList = document.querySelector ('.nav');
 
 navList.classList.add('hide');
-// navOpenButton.innerHTML='';
 
 function showNav(){
     navList.classList.remove('hide');
@@ -23,4 +22,3 @@ function hideNav(){
 navOpenButton.addEventListener('click', showNav);
 navCloseButton.addEventListener('click', hideNav);
 
-//no entiendo el error que me marca la consola
